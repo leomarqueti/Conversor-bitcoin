@@ -71,15 +71,24 @@ body {
   }
 
   button{
-    width: 29px;
-    height: 29px;
+    padding: 10px;
+    margin: 0 auto;
     border-radius: 100%;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(to right, orangered, orange);
+    cursor: pointer;
   }
   
   #valor {
-    border-radius: 15px;
-    height: 20px;
-    margin-top: -2px;
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 50px;
   }
   
   #bitcoin {
